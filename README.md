@@ -1,7 +1,6 @@
 # Fake News Detection using Logistic Regression
 
-## Dataset 
-link:(https://www.kaggle.com/datasets/bhavikjikadara/fake-news-detection)
+A machine learning model that detects fake vs real news using NLP and Logistic Regression.
 
 ## Overview
 
@@ -10,6 +9,7 @@ A machine learning project that classifies news articles as Fake or Real using N
 ## Example
 
 Input: "Government announces new economic reforms to boost growth."
+
 Output: REAL
 
 ## Dataset
