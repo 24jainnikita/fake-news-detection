@@ -20,18 +20,20 @@ The dataset consists of labeled news articles with text content, which are prepr
 - **Evaluation**: Accuracy, Precision, Recall, F1-score, and Confusion Matrix.
 
 ## Installation & Requirements
-To run this project, install the necessary dependencies:
 
-```bash
-pip install numpy pandas scikit-learn nltk re
+Install dependencies:
+pip install -r requirements.txt
 
 ## Setup Instructions
 
 1. Clone the repository:
 git clone https://github.com/24jainnikita/fake-news-detection.git
 
-2. Install dependencies:
+2. Navigate to the project folder:
+cd fake-news-detection
+
+3. Install dependencies:
 pip install -r requirements.txt
 
-3. Run the notebook:
+4. Run the notebook:
 news-detection.ipynb
