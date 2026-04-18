@@ -31,6 +31,7 @@ The dataset consists of labeled news articles with text content used for classif
 ## Installation & Requirements
 
 Install dependencies:
+
 pip install -r requirements.txt
 
 ## Setup Instructions
