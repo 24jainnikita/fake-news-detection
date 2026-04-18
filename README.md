@@ -24,3 +24,14 @@ To run this project, install the necessary dependencies:
 
 ```bash
 pip install numpy pandas scikit-learn nltk re
+
+## Setup Instructions
+
+1. Clone the repository:
+git clone https://github.com/24jainnikita/fake-news-detection.git
+
+2. Install dependencies:
+pip install -r requirements.txt
+
+3. Run the notebook:
+news-detection.ipynb
