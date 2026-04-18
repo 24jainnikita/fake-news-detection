@@ -4,10 +4,19 @@
 link:(https://www.kaggle.com/datasets/bhavikjikadara/fake-news-detection)
 
 ## Overview
-This project implements a **Logistic Regression** model to classify news articles as **fake or real** using **Natural Language Processing (NLP)** techniques.
+
+A machine learning project that classifies news articles as Fake or Real using NLP preprocessing and a Logistic Regression model trained on TF-IDF features.
+
+## Example
+
+Input: "Government announces new economic reforms to boost growth."
+Output: REAL
 
 ## Dataset
-The dataset consists of labeled news articles with text content, which are preprocessed for classification.
+
+Source: https://www.kaggle.com/datasets/bhavikjikadara/fake-news-detection
+
+The dataset consists of labeled news articles with text content used for classification.
 
 ## Model & Approach
 - **Text Preprocessing**:  
@@ -37,3 +46,8 @@ pip install -r requirements.txt
 
 4. Run the notebook:
 news-detection.ipynb
+
+## Saved Model
+
+- model2.pkl → trained Logistic Regression model  
+- tfidfvec2.pkl → TF-IDF vectorizer used for feature extraction  
